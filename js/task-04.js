@@ -9,18 +9,17 @@ incrementBtb.addEventListener("click", increment);
 
 
 function decrement() {
-    counterValue += 1
+    counterValue -= 1
     changeValueEl(counterValue)
 }
 
 function increment() {
-    counterValue -= 1
+    counterValue += 1
     changeValueEl(counterValue);
 }
 
 function changeValueEl(namber) {
-  valueEl.textContent = namber  
+    valueEl.textContent = namber  
 }
-
 
 
