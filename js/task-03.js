@@ -22,6 +22,5 @@ const elements = images.map(({ url, alt }) => {
 
 picture.insertAdjacentHTML("afterbegin", elements.join(''));
 
-console.log(picture);
 
   

@@ -4,8 +4,8 @@ const spanText = document.getElementById("text");
 
 onInput.addEventListener("input", onInputChange);
 
-function  onInputChange  () {
-spanText.style.fontSize =   onInput.value +  "px"  ;
+function  onInputChange  (event) {
+spanText.style.fontSize = event.currentTarget.value + "px";
 };
 
 
