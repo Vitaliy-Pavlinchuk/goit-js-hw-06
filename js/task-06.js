@@ -19,17 +19,6 @@ inputRef.addEventListener('blur', onblur)
 
 
 
-//////   2 ваіант
-// const inputRef = document.querySelector("#validation-input");
-
-// function onBlur(event) {
-//   event.currentTarget.value.length === Number(inputRef.dataset.length)
-//     ? inputRef.setAttribute("class", "valid")
-//     : inputRef.setAttribute("class", "invalid");
-//  }
-
-// inputRef.addEventListener("blur" , onBlur)
-
 
 
 
