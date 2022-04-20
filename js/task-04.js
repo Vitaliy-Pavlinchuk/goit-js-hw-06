@@ -7,7 +7,6 @@ let counterValue = 0
 decrementBtn.addEventListener('click', decrement)
 incrementBtb.addEventListener("click", increment);
 
-
 function decrement() {
     counterValue -= 1
     changeValueEl(counterValue)
@@ -21,9 +20,6 @@ function increment() {
 function changeValueEl(number) {
     valueEl.textContent = number  
 }
-
-
-
 // ///2 варіант
 // const decrementBtn = document.querySelector('[data-action="decrement"]');
 // const incrementBtb = document.querySelector('[data-action="increment"]');

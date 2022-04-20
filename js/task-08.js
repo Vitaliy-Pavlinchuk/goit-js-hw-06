@@ -4,6 +4,7 @@ formEL.addEventListener("submit", onFormSubmit);
 
 function onFormSubmit(event) {
   event.preventDefault();
+  
   const {
     elements: { email, password },
   } = event.currentTarget;
@@ -11,6 +12,14 @@ function onFormSubmit(event) {
     alert("Все поля должны быть заполнены");
   }
 
-  console.log(`Email: ${email.value}, Password: ${password.value}`);
-    event.currentTarget.reset();
-}
+const userRegister = {};
+        userRegister.email = email.value,
+        userRegister.password = password.value
+    
+  console.log(userRegister);
+  event.currentTarget.reset();
+};
+
+
+
+
